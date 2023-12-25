@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.posiciones {
+    background-image: url('./img/fondo.jpg'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta real de tu imagen */
+    background-size: auto; /* Ajusta el tamaño de la imagen para cubrir completamente el fondo */
+    height: 700px;
+    padding-top: 100px;
+    display: flex; /* Utiliza flexbox para centrar verticalmente los elementos internos */
+    flex-direction: column; /* Apila los elementos internos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos internos */
+}
+
+.container{
+    width: 500px !important;
+}
+
+
+.sec{
+    background-color: #00612d;
+    text-align: center;
+    padding: 2px;
+    width: 100%;
+    margin: 0;
+}
+
+.sec h2{
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: 400;
+    margin: 0;
+}
+
+.secdes{
+    background-color: red;
+    padding: 2px;
+    width: 100%;
+    margin: 0;
+}
+
+.secdes h3{
+    color: white;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: 400;
+    margin: 0;
+}
+
+.secsud{
+    background-color: #f5f374;
+    padding: 2px;
+    width: 100%;
+    margin: 0;
+}
+
+.secsud h3{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.seclib{
+    background-color: #00af71;
+    padding: 2px;
+    width: 100%;
+    margin: 0;
+}
+
+.seclib h3{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.dsdl{
+    background-color: #737474;
+    padding: 2px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dsdl h3{
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+
+.table {
+    max-width: 800px; /* Ajusta el ancho máximo de la tabla según tus necesidades */
+    width: 100%; /* Garantiza que la tabla ocupe el 100% del ancho disponible */
+    margin: 0 auto; /* Centra la tabla horizontalmente en el contenedor */
+    border: 2px solid rgb(134, 134, 134);
+}
+
+.lib{
+    background-color: #00af71 !important;
+    color: white !important;
+}
+
+.lib1{
+    background-color: green !important;
+    color: white !important;
+}
+.sud{
+    background-color: #f5f374!important;
+}
+
+.Des{
+    background-color: red !important;
+    color: white !important;
+}
+
+
+
+/* Opcional: Ajusta el ancho de las columnas si es necesario */
+.table th,.table td {
+    max-width: 150px; /* Ajusta el ancho máximo de las celdas según tus necesidades */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Muestra puntos suspensivos (...) si el contenido es demasiado largo */
+    white-space: nowrap; /* Evita que el texto se desplace a la siguiente línea */
+    border: 2px solid #797979;
+    padding: 2px !important;
+    font-weight: 500;
+}
+
+.table td{
+    justify-content: space-between;
+}
+
+.table td img{
+    margin-right: 20px;
+}
+
+.table thead th{
+    border-bottom: 0;
+    background-color: black   !important;
+    color: white;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .table {
+        border: 1px solid #ddd;
+    }
+
+    .table th, .table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .table thead th {
+        font-size: 16px;
+    }
+}
