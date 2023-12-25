@@ -23,7 +23,7 @@
     background-color: #00612d;
     text-align: center;
     padding: 2px;
-    width: 100%;
+    width: 500px;
     margin: 0;
 }
 
@@ -33,12 +33,13 @@
     text-shadow: 2px 2px 2px #000;
     font-weight: 400;
     margin: 0;
+    
 }
 
 .secdes{
     background-color: red;
     padding: 2px;
-    width: 100%;
+    width: 500px;
     margin: 0;
 }
 
@@ -53,7 +54,7 @@
 .secsud{
     background-color: #f5f374;
     padding: 2px;
-    width: 100%;
+    width: 500px;
     margin: 0;
 }
 
@@ -67,7 +68,7 @@
 .seclib{
     background-color: #00af71;
     padding: 2px;
-    width: 100%;
+    width: 500px;
     margin: 0;
 }
 
@@ -81,7 +82,7 @@
 .dsdl{
     background-color: #737474;
     padding: 2px;
-    width: 100%;
+    width: 500px;
     margin-top: 20px;
     text-align: center;
 }
@@ -96,7 +97,7 @@
 
 
 .table {
-    max-width: 800px; /* Ajusta el ancho máximo de la tabla según tus necesidades */
+    max-width: 500px; /* Ajusta el ancho máximo de la tabla según tus necesidades */
     width: 100%; /* Garantiza que la tabla ocupe el 100% del ancho disponible */
     margin: 0 auto; /* Centra la tabla horizontalmente en el contenedor */
     border: 2px solid rgb(134, 134, 134);
@@ -148,17 +149,37 @@
     font-weight: 500;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 425px) {
+.posiciones{
+    padding: 10px;
+}
+
+    .container{
+        width: 420px;
+    }
+
+    .sec{
+        width: 100%;
+    }
+
     .table {
-        border: 1px solid #ddd;
+        max-width: 100%; 
     }
 
     .table th, .table td {
-        padding: 8px;
-        font-size: 14px;
+    height: 10px;
     }
 
-    .table thead th {
-        font-size: 16px;
+    .seclib{
+        width: 100%;
+    }
+    .secdes{
+        width: 100%;
+    }
+    .secsud{
+        width: 100%;
+    }
+    .dsdl{
+        width: 100%;
     }
 }
